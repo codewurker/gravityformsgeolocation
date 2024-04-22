@@ -1,0 +1,16 @@
+### 1.2.0 | 2024-03-07
+- Fixed inconsistent capitalization in the no-conflict description.
+- Fixed an issue where the user (submitter) location is not retained when paging an Ajax-enabled form.
+- Fixed an issue where address field latitude and longitude values are not included in the `$entry` used for exports and background feed processing.
+- Fixed an issue where the state and country drop downs are not populated when using two-character codes as values.
+- Fixed an issue where town and county values are not populated for UK addresses.
+- Fixed an issue where the country value is not populated when the input is hidden.
+
+### 1.1.0 | 2023-09-14
+- Fixed an issue where API keys won't validate if using website restrictions.
+- Fixed an issue which causes the address field placeholder to not populate.
+- Fixed a fatal error that can occur when duplicate scripts are loaded.
+- Fixed an issue which prevents geolocation autosuggestion from initializing on multipage ajax forms.
+
+### 1.0 | 2023-01-05
+- It's all new!
